@@ -162,7 +162,7 @@ namespace EdgeDeflector
             }
 
             // defer fallback to web browser
-            return "http://" + new_uri;
+            return "ES:" + new_uri;
         }
 
         static void OpenUri(string uri)
